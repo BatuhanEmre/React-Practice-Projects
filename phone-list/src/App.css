@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#container{
+  width: 400px;
+  background-color: aliceblue;
+  padding: 20px;
+
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 5px;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.list{
+  margin: 15px 0 ;
+  
+}
+
+.list >li{
+  background-color: antiquewhite;
+  padding: 5px;
+}
+
+.BTN{
+  display: flex;
+  justify-content: right;
+  float: right;
+  padding: 5px 0 ;
+}
+.BTN > button{
+  padding: 5px;
+  width: 60px;
+}
+
+
+
+
